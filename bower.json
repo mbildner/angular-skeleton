@@ -1,0 +1,25 @@
+{
+  "name": "angular-skeleton",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mbildner/angular-skeleton",
+  "authors": [
+    "Moshe Bildner <moshe.bildner@gmail.com>"
+  ],
+  "description": "simple angular application for rapid prototyping and testing",
+  "main": "vendor.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.6",
+    "underscore": "~1.7.0"
+  }
+}
