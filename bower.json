@@ -6,7 +6,6 @@
     "Moshe Bildner <moshe.bildner@gmail.com>"
   ],
   "description": "simple angular application for rapid prototyping and testing",
-  "main": "vendor.js",
   "moduleType": [
     "globals"
   ],
