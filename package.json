@@ -1,0 +1,19 @@
+{
+  "name": "angular-skeleton",
+  "version": "0.0.0",
+  "description": "Simple angular app with express server backing it for rapid prototyping and testing.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbildner/angular-skeleton.git"
+  },
+  "author": "Moshe Bildner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbildner/angular-skeleton/issues"
+  },
+  "homepage": "https://github.com/mbildner/angular-skeleton"
+}
