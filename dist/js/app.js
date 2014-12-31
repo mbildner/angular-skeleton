@@ -1,7 +1,7 @@
 angular.module('app', []);
 
-angular.module('app').controller('HomePageController', function ($scope) {
-	$scope.greetingText = 'Get to work!';
-});
-
 alert('hello world');
+
+angular.module('app').controller('HomePageController', ["$scope", function ($scope) {
+	$scope.greetingText = 'Get to work!';
+}]);
