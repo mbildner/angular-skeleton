@@ -20,7 +20,7 @@ app.use(bodyParser.json({ extended: true }));
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('/', function (req, res) {
-	res.redirect('dist/index.html');
+  res.sendFile(path.join(__dirname, './html/index.html'));
 });
 
 app.listen(SERVE_PORT);
