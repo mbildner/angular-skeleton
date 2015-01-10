@@ -3,8 +3,7 @@
 
 var gulp = require('gulp');
 var templateCache = require('gulp-angular-templatecache');
-
-const NG_MODULE_NAME = 'app';
+var NG_MODULE_NAME = 'app';
 
 gulp.task('views', function () {
   return gulp.src([
