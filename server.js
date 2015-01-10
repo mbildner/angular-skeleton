@@ -1,6 +1,8 @@
+/* jshint node:true */
+'use strict';
+
 var yargs = require('yargs')
 	.usage('Run the server for your angular app')
-	.demand('p')
 	.alias('p', 'port')
 	.describe('p', 'Port to serve on')
 	.argv;
