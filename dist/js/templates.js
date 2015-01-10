@@ -1,1 +1,0 @@
-angular.module("app").run(["$templateCache", function($templateCache) {$templateCache.put("views/HomePageGreetingBox.html","<h1>{{ demoMessage }}</h1>\n");}]);
