@@ -3,11 +3,10 @@
 
 var gulp = require('gulp');
 var concat = require('gulp-concat');
-var mainBowerFiles = require('main-bower-files');
-
+var lib = require('bower-files')();
 
 gulp.task('vendor', function () {
-  return gulp.src(mainBowerFiles())
+  return gulp.src(lib.ext('js').files)
     .pipe(concat('vendor.js'))
     .pipe(gulp.dest('dist/js'));
 });

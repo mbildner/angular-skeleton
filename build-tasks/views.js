@@ -3,7 +3,7 @@
 
 var gulp = require('gulp');
 var templateCache = require('gulp-angular-templatecache');
-var NG_MODULE_NAME = 'app';
+var NG_MODULE_NAME = 'civis-chat';
 
 gulp.task('views', function () {
   return gulp.src([
